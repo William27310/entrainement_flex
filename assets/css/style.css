@@ -1,0 +1,118 @@
+body {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Haut de page */
+
+header {
+    text-align: center;
+    height: 20%;
+    background-color: antiquewhite;
+}
+
+h1 {
+    margin-top: 1rem;
+}
+
+.Woof {
+    width: 8rem;
+    margin-bottom: 1rem;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    background-color: bisque;
+}
+
+/* Haut de page */
+
+/* Milieu de page */
+
+.logistique {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.inventaire {
+    border: 2px solid black;
+    width: 20%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    background-color: cornsilk;
+}
+
+h4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: auto;
+    background-color: blanchedalmond;
+}
+
+.produit {
+    width: 8rem;
+    margin: 1rem;
+}
+
+.notes {
+    text-align: center;
+    background-color: blanchedalmond;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+p {
+    text-align: center;
+    height: 20%;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(179, 155, 124);
+}
+
+.interaction {
+    display: flex;
+    justify-content: space-around;
+    background-color: blanchedalmond;
+}
+
+button {
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    
+}
+
+/* Milieu de page */
+
+/* Bas de page */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    height: 20%;
+}
+
+.coordonnées {
+    margin: auto;
+    text-align: center;
+}
+
+.map {
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mentions {
+    text-align: center;
+    background-color: lightgray;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+
+/* Bas de page */
